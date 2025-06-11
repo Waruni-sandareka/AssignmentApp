@@ -14,7 +14,7 @@
             android:src="@drawable/fot"
             android:strokeWidth="9.0"
             android:strokeColor="#4b2f61"
-            android:cornerRadius="50dp" />
+             />
 
     <TextView
             android:id="@+id/username"
@@ -38,7 +38,7 @@
             android:textColor="#f3eff8"
             android:backgroundTint="#4b2f61"
             android:layout_marginTop="16dp"
-            android:cornerRadius="35dp" />
+             />
 
     <Button
             android:id="@+id/signOutBtn"
@@ -48,7 +48,7 @@
             android:textColor="#f3eff8"
             android:backgroundTint="#4b2f61"
             android:layout_marginTop="8dp"
-            android:cornerRadius="35dp" />
+             />
 
     <Button
             android:id="@+id/devInfoBtn"

@@ -53,6 +53,6 @@
             android:backgroundTint="#4b2f61"
             android:layout_marginTop="16dp"
             android:layout_gravity="center"
-            android:cornerRadius="35dp"
+
             android:id="@+id/signup_btn" />
 </LinearLayout>

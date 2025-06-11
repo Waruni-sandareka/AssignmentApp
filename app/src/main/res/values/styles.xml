@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+
+    <style name="BottomNavigationViewStyle">
+        <item name="itemIconSize">24dp</item>
+        <item name="itemPadding">12dp</item>
+        <item name="itemBackground">@drawable/circular_btn</item>
+    </style>
+</resources>

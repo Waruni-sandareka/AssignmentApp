@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d6c7e6"
+        android:orientation="vertical">
+
+    <!-- Embedded news card -->
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:cardElevation="4dp">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+            <TextView
+                    android:id="@+id/newsTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sample News Title"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            <ImageView
+                    android:id="@+id/newsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/fot" />
+
+            <TextView
+                    android:id="@+id/newsDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is a sample news description."
+                    android:textSize="14sp"
+                    android:paddingTop="4dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Button layout -->
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#d6c7e6"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+        <Button
+                android:id="@+id/btn_news"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/circular_btn"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:contentDescription="News" />
+
+        <Button
+                android:id="@+id/btn_profile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/circular_btn"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:contentDescription="Profile" />
+
+        <Button
+                android:id="@+id/btn_dev_info"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/circular_btn"
+                android:drawableTop="@drawable/ic_launcher_foreground"
+                android:contentDescription="Developer Info" />
+    </LinearLayout>
+</LinearLayout>

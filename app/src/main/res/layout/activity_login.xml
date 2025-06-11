@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d6c7e6"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <ImageView
+            android:layout_width="270dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fot"
+            android:id="@+id/logo" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:id="@+id/username_input" />
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:id="@+id/password_input" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don’t have an Account? Sign Up"
+            android:textColor="#4b2f61"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:onClick="goToSignUp"
+            android:id="@+id/donot_text" />
+
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="#f3eff8"
+            android:backgroundTint="#4b2f61"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:cornerRadius="35dp"
+            android:id="@+id/login_btn" />
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d6c7e6"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fot"
+            android:strokeWidth="9.0"
+            android:strokeColor="#4b2f61"
+            android:cornerRadius="50dp" />
+
+    <TextView
+            android:id="@+id/username"
+            android:layout_width="127dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18sp" />
+
+    <TextView
+            android:id="@+id/email"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="14sp" />
+
+    <Button
+            android:id="@+id/editInfoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edit Info"
+            android:textColor="#f3eff8"
+            android:backgroundTint="#4b2f61"
+            android:layout_marginTop="16dp"
+            android:cornerRadius="35dp" />
+
+    <Button
+            android:id="@+id/signOutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Out"
+            android:textColor="#f3eff8"
+            android:backgroundTint="#4b2f61"
+            android:layout_marginTop="8dp"
+            android:cornerRadius="35dp" />
+
+    <Button
+            android:id="@+id/devInfoBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dev Info"
+            android:textColor="#4b2f61"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+</LinearLayout>

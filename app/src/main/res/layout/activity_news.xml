@@ -6,77 +6,57 @@
         android:background="#d6c7e6"
         android:orientation="vertical">
 
-    <!-- Embedded news card -->
-    <androidx.cardview.widget.CardView
+    <!-- RecyclerView for dynamic news list -->
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/newsRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="8dp"
-            >
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:clipToPadding="false" />
 
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="8dp">
-
-            <TextView
-                    android:id="@+id/newsTitle"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sample News Title"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
-
-            <ImageView
-                    android:id="@+id/newsImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="100dp"
-                    android:scaleType="centerCrop"
-                    android:src="@drawable/fot" />
-
-            <TextView
-                    android:id="@+id/newsDescription"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="This is a sample news description."
-                    android:textSize="14sp"
-                    android:paddingTop="4dp" />
-        </LinearLayout>
-    </androidx.cardview.widget.CardView>
-
-    <!-- Button layout -->
+    <!-- Footer with 3 icon buttons -->
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#d6c7e6"
+            android:background="#2A0B30"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="12dp">
 
-        <Button
+        <ImageButton
                 android:id="@+id/btn_news"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:background="@drawable/circular_btn"
-                android:drawableTop="@drawable/ic_launcher_foreground"
-                android:contentDescription="News" />
+                android:src="@drawable/code"
+                android:contentDescription="News"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                app:tint="#260C2B" />
 
-        <Button
+        <ImageButton
                 android:id="@+id/btn_profile"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="30dp"
                 android:background="@drawable/circular_btn"
-                android:drawableTop="@drawable/ic_launcher_foreground"
-                android:contentDescription="Profile" />
+                android:src="@drawable/ticket"
+                android:contentDescription="Profile"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                app:tint="#FF260C2B" />
 
-        <Button
+        <ImageButton
                 android:id="@+id/btn_dev_info"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginStart="30dp"
                 android:background="@drawable/circular_btn"
-                android:drawableTop="@drawable/ic_launcher_foreground"
-                android:contentDescription="Developer Info" />
+                android:src="@drawable/user"
+                android:contentDescription="Developer Info"
+                android:scaleType="centerInside"
+                android:padding="8dp"
+                app:tint="#FF260C2B" />
     </LinearLayout>
 </LinearLayout>

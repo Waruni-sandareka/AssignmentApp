@@ -2,12 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#f3eff8">
+        android:background="#d6c7e6">
 
     <ImageView
             android:layout_width="270dp"
             android:layout_height="200dp"
             android:src="@drawable/fot"
             android:id="@+id/logo"
+            android:clickable="true"
+            android:focusable="true"
             android:layout_centerInParent="true" />
 </RelativeLayout>

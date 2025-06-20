@@ -8,13 +8,12 @@
 
     <ImageView
             android:id="@+id/profileImage"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="193dp"
+            android:layout_height="207dp"
             android:layout_gravity="center"
             android:src="@drawable/fot"
             android:strokeWidth="9.0"
-            android:strokeColor="#4b2f61"
-             />
+            android:strokeColor="#4b2f61" />
 
     <TextView
             android:id="@+id/username"
@@ -32,28 +31,26 @@
 
     <Button
             android:id="@+id/editInfoBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="328dp"
+            android:layout_height="70dp"
             android:text="Edit Info"
             android:textColor="#f3eff8"
             android:backgroundTint="#4b2f61"
-            android:layout_marginTop="16dp"
-             />
+            android:layout_marginTop="16dp" />
 
     <Button
             android:id="@+id/signOutBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="327dp"
+            android:layout_height="66dp"
             android:text="Sign Out"
             android:textColor="#f3eff8"
             android:backgroundTint="#4b2f61"
-            android:layout_marginTop="8dp"
-             />
+            android:layout_marginTop="8dp" />
 
     <Button
             android:id="@+id/devInfoBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="145dp"
+            android:layout_height="81dp"
             android:text="Dev Info"
             android:textColor="#4b2f61"
             android:background="@null"

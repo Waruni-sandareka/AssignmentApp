@@ -1,25 +1,20 @@
 package com.example.fotnews.model;
-
 public class News {
+    private int id;
     private String title;
-    private String description;
+    private String content;
     private int imageResId;
 
-    public News(String title, String description, int imageResId) {
+    public News(int id, String title, String content, int imageResId) {
+        this.id = id;
         this.title = title;
-        this.description = description;
+        this.content = content;
         this.imageResId = imageResId;
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public int getImageResId() {
-        return imageResId;
-    }
+    public int getId() { return id; }
+    public String getTitle() { return title; }
+    public String getContent() { return content; }
+    public int getImageResId() { return imageResId; }
 }
+

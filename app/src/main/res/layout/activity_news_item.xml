@@ -9,20 +9,20 @@
 
     <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:padding="12dp">
 
         <ImageView
                 android:id="@+id/newsImage"
-                android:layout_width="match_parent"
+                android:layout_width="363dp"
                 android:layout_height="160dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/fot" />
 
         <TextView
                 android:id="@+id/newsTitle"
-                android:layout_width="match_parent"
+                android:layout_width="363dp"
                 android:layout_height="wrap_content"
                 android:text="News Title"
                 android:textSize="18sp"
@@ -32,11 +32,25 @@
 
         <TextView
                 android:id="@+id/newsDescription"
-                android:layout_width="match_parent"
+                android:layout_width="359dp"
                 android:layout_height="wrap_content"
                 android:text="News description goes here."
                 android:textSize="14sp"
                 android:textColor="#4b2f61"
                 android:paddingTop="4dp" />
+
+        <!-- Delete Button -->
+        <Button
+                android:id="@+id/btnDelete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:backgroundTint="#C60A4A"
+                android:layout_marginTop="12dp"
+                android:layout_gravity="end"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="8dp" />
     </LinearLayout>
+
 </androidx.cardview.widget.CardView>

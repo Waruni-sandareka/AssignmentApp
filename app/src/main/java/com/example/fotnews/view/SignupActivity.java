@@ -27,7 +27,7 @@ public class SignupActivity extends AppCompatActivity {
     private Button signupButton;
 
     // Use a more reliable URL (update with your actual backend URL)
-    private static final String REGISTER_URL = "http://172.20.10.3:3001/register";
+    private static final String REGISTER_URL = "http://192.168.8.144:3001/register";
     private static final int REQUEST_TIMEOUT_MS = 10000; // 10 seconds timeout
 
     @Override
